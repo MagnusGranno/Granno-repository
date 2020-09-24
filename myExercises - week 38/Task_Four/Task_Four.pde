@@ -17,11 +17,15 @@ double average;
 
 void setup()
 {
+  //4.b
   arrString(stringA);
+  //4.c
   intSum(intA);
   println(sum);
+  //4.d
   calcAverage(unSorted);
   println(average);
+  //4.e
   sortArray(unSorted);
   println(sorted);
 }
