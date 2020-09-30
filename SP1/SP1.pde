@@ -73,7 +73,7 @@ void draw()
         fill(0, 255, 0);
       } else if (board[x][y] == 4)
       {
-        fill(150, 75, 0);
+        fill(255, 255, 0);
       }
       stroke(100, 100, 100);
       rect(x*40, y*40, 40, 40);
